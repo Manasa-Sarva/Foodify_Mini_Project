@@ -1,2 +1,144 @@
-# Foodify_Mini_Project
-A fully responsive Food Ordering Web Application built using React, Bootstrap, and Context API, inspired by real-world platforms like Swiggy and Zomato.  This application provides a seamless user experience for browsing restaurants, exploring menus, adding items to the cart, and placing orders - all within a modern and intuitive UI.
+# 🍔 Foodify - Modern Food Ordering Web App
+
+A fully responsive **Food Ordering Web Application** built using **React, Bootstrap, and Context API**, inspired by real-world apps like Swiggy and Zomato.
+
+---
+
+## 🚀 Live Features
+
+### 🔐 Authentication
+
+* Simple **Sign In / Sign Up (localStorage-based)**
+* User must log in to access cart functionality
+
+### 🍽️ Restaurant Browsing
+
+* Explore multiple food categories
+* View restaurant listings with ratings & delivery time
+* Navigate to detailed restaurant menu pages
+
+### 🛒 Cart Functionality
+
+* Add items to cart
+* Increase / decrease item quantity
+* Remove items automatically when quantity reaches 0
+* Cart persists using **localStorage**
+* Cart visible **only after login**
+
+### 📱 Sticky Cart Bar
+
+* Swiggy-style sticky bottom cart
+* Displays total items and price
+* Quick navigation to cart page
+
+### 💳 Checkout Flow
+
+* View total price before checkout
+* Checkout clears cart state
+* Redirects to **Order Success Page**
+
+### 🎉 Order Success Animation
+
+* Animated success tick
+* Auto redirect to home page
+
+---
+
+## 🧠 Tech Stack
+
+* ⚛️ React (Functional Components + Hooks)
+* 🔀 React Router DOM (Routing)
+* 🧩 Context API (Global State Management)
+* 💾 LocalStorage (Persistence)
+* 🎨 Bootstrap + Custom CSS (Glass UI + Animations)
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── Hero.jsx
+ │    ├── CategoryCarousel.jsx
+ │    ├── RestaurantList.jsx
+ │
+ ├── pages/
+ │    ├── RestaurantDetails.jsx
+ │    ├── CartPage.jsx
+ │    ├── Success.jsx
+ │
+ ├── context/
+ │    ├── AuthContext.jsx
+ │    ├── CartContext.jsx
+ │
+ ├── App.jsx
+ ├── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Manasa-Sarva/Foodify_Mini_Project.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd Foodify_Mini_Project
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm run dev
+```
+
+---
+
+## 💡 Key Concepts Implemented
+
+* Context API for scalable state management
+* Protected actions (cart only after login)
+* Dynamic routing using URL params
+* UI/UX inspired by real-world apps
+* Persistent state using localStorage
+* Clean and reusable component architecture
+
+---
+
+## 🔥 Future Enhancements
+
+* 💳 Payment Integration (Razorpay / Stripe)
+* 📦 Order History Page
+* 🔔 Toast Notifications
+* 🌙 Dark Mode
+* 🔍 Search & Filter functionality
+* 🧾 Multi-restaurant cart restriction
+
+---
+
+## 👨‍💻 Author
+
+**Manasa Sarva**
+
+Frontend Developer 
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and share your feedback!
+
+---
